@@ -256,17 +256,21 @@ span{
 }
 
 .portfolio h2{
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
     align-items: center;
     gap: 2.5rem;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .portfolio-container .portfolio-box{
+
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
